@@ -15,11 +15,5 @@ public class Kreuz extends Actor
         bezeichnung = "Kreuz";
         setRotation(0);
     }
-    public void datenAusgeben()
-    {
-        int x = getX();
-        
-        int y = getY();
-        System.out.println(x + "->" + y + "->" );
-    }
+    
 }
